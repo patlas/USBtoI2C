@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "stutil",
+            "armToolchainPath": "/home/patlas/Programs/gcc-arm-none-eabi-10-2020-q4-major/bin/",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/USBtoI2c.elf",
+            "name": "Debug (ST-Util)",
+            "device": "STM32F407VGT6",
+            "v1": false
+        }
+    ]
+}
+
+//            "armToolchainPath": "/home/patlas/Programs/gcc-arm-none-eabi-10-2020-q4-major/bin/",
