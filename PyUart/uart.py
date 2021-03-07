@@ -35,7 +35,7 @@ class SMBus:
     def __init__(self, ids):
 
         self.ser = serial.Serial(
-                port='/dev/ttyACM0',
+                port='/dev/ttyACM1',
                 baudrate=115200,
                 parity=serial.PARITY_NONE,
                 stopbits=serial.STOPBITS_ONE,

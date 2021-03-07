@@ -57,3 +57,6 @@ compile_commands.json
 PyUart/__pycache__/*
 USBtoI2c/build/*
 USBtoI2c/compile_commands.json
+**/.clangd/*
+**/.vscode/*
+**/build/*
